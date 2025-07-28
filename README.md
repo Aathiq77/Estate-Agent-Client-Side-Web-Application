@@ -14,10 +14,8 @@ A responsive front-end web application developed using ReactJS, designed to help
 
 - ReactJS (with functional components and hooks)  
 - HTML5 & CSS3  
-- JavaScript (ES6+)  
+- JavaScript  
 - Responsive Design (Media Queries, Flexbox/Grid)  
-
-## 📁 Project Structure
 
 
 ## ▶️ Getting Started
