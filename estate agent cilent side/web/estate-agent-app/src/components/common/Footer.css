@@ -1,0 +1,118 @@
+/* Footer Section */
+.footer {
+  background-color: #555; /* Dark gray background */
+  color: #fff; /* White text color */
+  padding: 40px 20px; /* Padding around the footer */
+  font-family: Arial, sans-serif;
+}
+
+/* Footer content layout */
+.footer-content {
+  display: flex;
+  justify-content: space-around; /* Spread items evenly */
+  flex-wrap: wrap; /* Wrap items on smaller screens */
+  max-width: 1200px; /* Limit max width */
+  margin: 0 auto; /* Center align content */
+}
+
+/* Footer sections */
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section h3 {
+  font-size: 1rem; /* Section heading font size */
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #fff; /* White heading */
+  text-transform: uppercase; /* Uppercase text */
+}
+
+/* Footer links */
+.footer-section ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ccc; /* Light gray links */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Social icons */
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: #fff; /* White icons */
+  margin-right: 15px;
+  font-size: 1.2rem; /* Icon size */
+}
+
+/* Newsletter form */
+.newsletter-form {
+  display: flex;
+}
+
+.newsletter-form input {
+  padding: 8px;
+  border: none;
+  flex-grow: 1; /* Fill available space */
+  background-color: #7e7e7e; /* Gray input background */
+  color: #fff; /* White input text */
+}
+
+.newsletter-form input::placeholder {
+  color: #fff; /* White placeholder text */
+}
+
+.newsletter-form button {
+  padding: 8px;
+  border: none;
+  background-color: #e32d22; /* Red button background */
+  color: #fff;
+  cursor: pointer;
+  white-space: nowrap;
+  text-transform: uppercase; /* Uppercase button text */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+  text-align: center; /* Center text */
+  margin-top: 5px;
+  padding-top: 20px;
+  border-top: 1px solid #777; /* Top border for separation */
+}
+
+.footer-bottom p {
+  font-size: 0.8rem; /* Small text */
+  color: #ccc; /* Light gray color */
+  margin-bottom: 5px;
+}
+
+/* Footer bottom links */
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Newsletter text styling */
+.news-letter {
+  color: #fff; /* White text color */
+}

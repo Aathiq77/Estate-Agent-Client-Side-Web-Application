@@ -1,0 +1,123 @@
+/* About Us section styles */
+.about-us {
+    padding: 40px; /* Section padding */
+    font-family: Arial, sans-serif;
+}
+
+/* Main content layout */
+.about-content {
+    display: flex; /* Flexbox layout */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    max-width: 1200px; /* Limit content width */
+    margin: 0 auto; /* Center section */
+}
+
+/* Text section styling */
+.text-section {
+    width: 40%; 
+    padding-right: 40px;
+    text-align: left;
+}
+
+.text-section h2 {
+    font-size: 2.5rem; /* Heading size */
+    font-weight: bold;
+    color: #222; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    font-size: 1rem;
+    line-height: 1.6; /* Line spacing */
+    color: #555; /* Gray text */
+}
+
+/* Image section styling */
+.image-section {
+    width: 60%;
+}
+
+.image-section img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack content */
+    }
+
+    .text-section,
+    .image-section {
+        width: 100%; /* Full width */
+        padding-right: 0;
+    }
+
+    .text-section {
+        margin-bottom: 20px; /* Add spacing */
+    }
+}
+
+/* Best Choice section styles */
+.best-choice {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8; /* Light background */
+    font-family: Arial, sans-serif;
+    margin-top: 2rem;
+}
+
+.best-choice-heading {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 95%;
+}
+
+.best-choice-heading h2 {
+    font-size: 1.5rem; /* Smaller heading */
+    font-weight: 800;
+    color: #0d233f; /* Blue color */
+    margin-bottom: 5px;
+    text-transform: uppercase; /* Uppercase text */
+}
+
+.choice-content {
+    display: flex; /* Flex layout */
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.choice-item {
+    width: 30%; 
+    padding: 20px;
+}
+
+.choice-item h3 {
+    font-size: 1rem; /* Small heading */
+    color: #000;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.choice-item p {
+    font-size: 0.9rem;
+    color: #555; /* Gray text */
+    line-height: 1.6;
+}
+
+/* Responsive adjustments for Best Choice */
+@media (max-width: 768px) {
+    .choice-content {
+        flex-direction: column; /* Stack items */
+    }
+
+    .choice-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

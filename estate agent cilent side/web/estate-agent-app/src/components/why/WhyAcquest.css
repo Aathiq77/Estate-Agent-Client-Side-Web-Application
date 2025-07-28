@@ -1,0 +1,61 @@
+.why-acquest {
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.why-acquest .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.why-acquest h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 0.9rem;
+    color: #0d233f;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.sections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.section h3 {
+    font-size: 1rem;
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section p {
+    font-size: 0.9rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+@media (max-width: 768px) {
+    .sections {
+        grid-template-columns: 1fr; 
+    }
+}

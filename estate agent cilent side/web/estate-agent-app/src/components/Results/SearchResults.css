@@ -1,0 +1,15 @@
+.search-results {
+    padding: 20px;
+    text-align: center;
+}
+.search-results h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.property-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 95%;
+    margin: auto;
+}

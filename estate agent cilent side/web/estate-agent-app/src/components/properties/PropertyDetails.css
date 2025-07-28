@@ -1,0 +1,144 @@
+.property-details {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.property-content {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 20px auto;
+}
+
+.property-main {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.property-banner {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.property-details-header {
+  text-align: left;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.property-type {
+  font-weight: bold;
+  color: #ff4500;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.property-location {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+}
+
+.property-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.property-details-tabs {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tab {
+  padding: 10px 20px;
+  border: none;
+  background-color: #dadd0f;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background-color: #ddd;
+}
+
+.floorplan-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.property-details-info {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.property-details-info h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.enquire-now {
+  padding: 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.enquire-now h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.property-id {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.enquire-button {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.enquire-button.phone {
+  background-color: #dd4b39;
+}
+
+.enquire-button.whatsapp {
+  background-color: #25d366;
+}
+
+.enquire-button.email {
+  background-color: #ff4500;
+}
+
+.enquire-button.schedule {
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+.leaflet-marker-icon {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 1000 !important;
+}
+
+

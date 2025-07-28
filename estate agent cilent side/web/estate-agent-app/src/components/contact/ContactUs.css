@@ -1,0 +1,90 @@
+.contact-container {
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between sections */
+  padding: 20px;
+  font-family: Arial, sans-serif; /* Font for text */
+  line-height: 1.6; /* Line height for readability */
+}
+
+.contact-details, .enquire-now {
+  width: 48%; /* Equal width for both sections */
+}
+
+h2 {
+  color: #003366; /* Heading color */
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Uppercase for heading */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details-columns {
+  display: flex; /* Flex layout for columns */
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.column {
+  width: 48%; /* Equal width for columns */
+}
+
+.contact-details p {
+  margin: 10px 0; /* Spacing for paragraphs */
+  font-size: 14px;
+  color: #333; /* Text color */
+}
+
+.contact-details strong {
+  font-weight: bold; /* Bold for labels */
+  color: #003366; /* Label color */
+}
+
+.contact-details a {
+  color: #003366; /* Link color */
+  text-decoration: none; /* No underline for links */
+}
+
+.contact-details a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+form {
+  background-color: #f9f9f9; /* Form background */
+  padding: 20px;
+  border: 1px solid #ddd; /* Light border for form */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.form-group {
+  display: flex; /* Flex layout for form fields */
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%; /* Full width for inputs */
+  padding: 10px;
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  background-color: #003366; /* Button color */
+  color: #fff; /* Button text color */
+  padding: 10px;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%; /* Full width for button */
+}
+
+button:hover {
+  background-color: #00509e; /* Darker button on hover */
+}

@@ -1,0 +1,79 @@
+.property-card {
+  border: 1px solid #ccc; /* Card border */
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Prevents content overflow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* White background */
+  height: 450px; /* Fixed height */
+  margin: 0; /* No margin */
+  padding: 0; /* No padding */
+}
+
+.property-card-link {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Inherits color */
+  display: block; /* Block-level */
+  width: 70%; /* Controls link width */
+}
+
+.property-image {
+  position: relative; /* For positioning tags */
+  height: 250px; /* Fixed height */
+  width: auto; /* Adjust width */
+}
+
+.property-image img {
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  object-fit: cover; /* Maintain aspect ratio */
+}
+
+.featured-tag, .sale-tag {
+  position: absolute; /* Positioned at top */
+  top: 10px; /* Distance from top */
+  padding: 5px 10px; /* Padding */
+  color: #fff; /* White text */
+  font-weight: bold; /* Bold text */
+  border-radius: 3px; /* Rounded corners */
+  z-index: 10; /* Above other elements */
+}
+
+.featured-tag {
+  left: 0; /* Align left */
+  background-color: #ffcc00; /* Yellow background */
+}
+
+.sale-tag {
+  right: 0; /* Align right */
+  background-color: #dd4b39; /* Red background */
+}
+
+.property-summary {
+  padding: 10px; /* Padding inside */
+  text-align: left; /* Left-aligned text */
+}
+
+.property-type {
+  font-size: 0.7rem; /* Small font */
+  color: #dd4b39; /* Red color */
+  margin-bottom: 5px; /* Space below */
+  text-transform: uppercase; /* Uppercase */
+  font-weight: 600; /* Bold */
+}
+
+.property-name {
+  font-size: 0.9rem; /* Slightly larger font */
+  font-weight: 600; /* Bold */
+  margin-bottom: 5px; /* Space below */
+  color: #000; /* Black text */
+}
+
+.property-location {
+  display: none; /* Hidden location */
+}
+
+.property-price {
+  font-size: 0.9rem; /* Slightly larger font */
+  font-weight: bold; /* Bold price */
+  color: #333; /* Dark gray text */
+}

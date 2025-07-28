@@ -1,0 +1,62 @@
+header {
+  position: relative; /* Relative positioning for header layout */
+  width: 100%; /* Full width of viewport */
+  background-color: #fff; /* White background for header */
+  color: #0d233f; /* Text color */
+  padding: 10px 20px; /* Inner spacing */
+  z-index: 10; /* Ensure header stays above other elements */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Flexbox layout for alignment */
+  justify-content: space-around; /* Space elements evenly */
+  align-items: center; /* Center elements vertically */
+}
+
+.logo {
+  margin-right: auto; /* Pushes the logo to the left */
+  padding-left: 50px; /* Left padding for spacing */
+}
+
+.header-right {
+  display: flex; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+  padding-right: 50px; /* Right padding for spacing */
+}
+
+.logo a {
+  color: #e32d22; /* Logo text color */
+  font-weight: bold; /* Bold text */
+  text-decoration: none; /* No underline */
+  font-size: 1.5rem; /* Large font size */
+}
+
+.navigation ul {
+  list-style: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Horizontal layout for navigation */
+  justify-content: center; /* Center navigation items */
+}
+
+.navigation li {
+  margin: 0 10px; /* Spacing between items */
+}
+
+.navigation a {
+  color: #0d233f; /* Link text color */
+  font-weight: 600; /* Semi-bold text */
+  text-decoration: none; /* No underline */
+  font-size: 0.9rem; /* Standard font size */
+}
+
+.navigation a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.favorites-toggle {
+  background-color: transparent; /* Transparent background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor for interaction */
+  color: #0d233f; /* Icon color */
+  font-size: 1.2rem; /* Icon size */
+  margin-right: 20px; /* Spacing on the right */
+}
